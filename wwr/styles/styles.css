@@ -1,5 +1,5 @@
 body {
-    background-color: darkblue;
+    background-color: blue;
     font-size: 100%;
 }
 
@@ -13,3 +13,6 @@ nav {
     text-decoration: lightskyblue;
 }
 
+h1, h2 {
+    color: white;
+}
