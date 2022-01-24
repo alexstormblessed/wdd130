@@ -15,5 +15,12 @@ nav {
 
 h1, h2 {
     color: white;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h1 {
     font-size: 4em;
 }
