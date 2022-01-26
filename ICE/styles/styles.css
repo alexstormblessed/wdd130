@@ -1,0 +1,33 @@
+body {
+    background-color: pink;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#photo {
+    max-width: 40%;
+    display: block;
+    margin: 0 auto
+}
+
+section.Heading {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+li {
+    padding: 0.5em 0;
+}
+
+figure {
+    color: white;
+}
