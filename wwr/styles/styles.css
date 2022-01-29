@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color: #515052;
     font-size: 100%;
 }
 
@@ -23,4 +23,100 @@ h2 {
 
 h1 {
     font-size: 4em;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: #515052;
+    text-decoration: none;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #FFDDD2;
+}
+
+header {
+    background-color: #FFDDD2;
+}
+
+nav a:hover {
+    background-color: #515052;
+    color: #83C5BE;
+}
+
+.book, .join {
+    background-color: #FFDDD2;
+    color: #515052;
+    text-decoration: none;
+}
+
+.msg {
+    background-color: #83C5BE;
+}
+
+footer {
+    background-color: #FFDDD2;
+}
+
+.home-title {
+    color: #83C5BE;
+}
+
+h4 {
+    color: #FFDDD2;
+}
+
+.join:hover {
+    color: #83C5BE;
+}
+
+.book:hover {
+    color: #83C5BE;
+}
+
+.msg h2 {
+    color: #EDF6F9;    
+}
+
+.msg p {
+    color: #515052;
+}
+
+footer h3 {
+    color: #515052;
+}
+
+footer a {
+    color: #515052;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #83C5BE;
+}
+
+.icon {
+    width: 80px;
+}
+
+footer h3:hover {
+    text-decoration: underline;
 }
