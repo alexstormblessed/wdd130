@@ -36,6 +36,10 @@ nav a {
     text-decoration: none;
 }
 
+#hero-img {
+    width: 1600px;
+}
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
