@@ -7,6 +7,10 @@ img {
     max-width: 100%;
 }
 
+img.logo {
+    width: 80px;
+}
+
 nav {
     font-size: 2em;
     color: lightgrey;
