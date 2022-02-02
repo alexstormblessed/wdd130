@@ -1,0 +1,26 @@
+div.title {
+    text-align: center;
+}
+
+div.title img {
+    width: 100%;
+}
+
+body {
+    background-color: grey;
+}
+
+div.images {
+    text-align: center;
+}
+
+div.images img {
+    border-radius: 50%;
+    width: 200px;
+    border: 10px solid #515052;
+    margin: 50px 75px;
+}
+
+body {
+    margin: 0;
+}
