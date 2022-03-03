@@ -1,0 +1,50 @@
+main {
+    margin: 0 auto;
+    text-align: center;
+    grid-column: 2 / 3;
+}
+
+body {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+article {
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+article h3 {
+    color: navy;
+}
+
+h1 {
+    font-style: bold;
+}
+
+#text {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 1px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#middle {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+
