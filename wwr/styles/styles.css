@@ -16,6 +16,10 @@ header {
     background-color: #FFDDD2;
 }
 
+.current-page {
+    text-decoration: underline;
+}
+
 img {
     max-width: 100%;
 }
