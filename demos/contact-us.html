@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W10 Form Demo</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        form {
+            max-width: 40rem;
+        }
+
+        form label,
+        form input,
+        form textarea,
+        form button {
+            display: block;
+            width: 20rem;
+            margin: 0;
+        }
+
+        form input,
+        form textarea,
+        form button {
+            padding: 0.75rem;
+        }
+
+        form input,
+        form textarea {
+            margin-bottom: 0.75rem;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Cookie Contest</h1>
+    <form action="thankyou.html">
+        <label for="name">First Name</label>
+        <input type="text" id="name" name="name" placeholder="Alex" autofocus>
+        
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="alex@example.com">
+
+        <label for="phone-number">Phone Number</label>
+        <input type="tel" id="phone-number" name="phone-number" placeholder="(555)555-5555">
+
+        <label for="htown">Hometown</label>
+        <input type="text" id="htown" name="htown" placeholder="Parma">
+
+        <label for="color">Favorite Color</label>
+        <input type="color" id="color" name="color" >
+
+        <button type="submit">Win a Cookie</button>
+    </form>
+</body>
+</html>
