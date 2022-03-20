@@ -70,6 +70,7 @@ body {
     align-items: center;
     justify-items: center;
     margin-bottom: 100px;
+    margin-top: 20px;
 }
 
 #hero {
@@ -184,5 +185,23 @@ footer a:hover {
 
     header {
         align-items: center;
+    }
+
+    nav a {
+        padding: 20px;
+    }
+
+    .hero-box {
+        grid-template-rows: 100px repeat(4, 1fr)
+    }
+
+    .hero-box a {
+        grid-area: 5/1/6/5;
+    }
+
+    #news-box {
+        display: flex;
+        flex-direction: column;
+
     }
 }
