@@ -202,6 +202,9 @@ footer a:hover {
     #news-box {
         display: flex;
         flex-direction: column;
+    }
 
+    #news-box img {
+        max-width: 300px;
     }
 }
