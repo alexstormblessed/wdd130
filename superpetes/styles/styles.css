@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Ubuntu+Mono&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Ubuntu+Mono&display=swap');
 
 :root {
     --primary-color: #304f8c   ;
