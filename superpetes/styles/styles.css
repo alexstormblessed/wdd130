@@ -102,6 +102,7 @@ body {
     background-color: #88c9f292;
     border-radius: 30%;
     text-align: center;
+    text-decoration: none;
 }
 
 .hero-box a:hover {
