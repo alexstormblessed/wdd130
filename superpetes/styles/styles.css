@@ -307,6 +307,36 @@ h1 {
     margin: 10px;
 }
 
+#baumgartners img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 75%;
+}
+
+p {
+    color: white;
+    font-family: var(--paragraph-font);
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 2em;
+}
+
+#runner {
+    display: block;
+    margin: 0 auto;
+}
+
+#other-news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 @media screen and (max-width: 900px) {
 
     nav,
@@ -358,5 +388,10 @@ h1 {
 
     #ru {
         width: 100%;
+    }
+
+    #other-news {
+        display: flex;
+        flex-direction: column;
     }
 }
